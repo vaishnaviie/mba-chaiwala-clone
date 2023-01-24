@@ -1,10 +1,11 @@
+import WelcomeVideo from "./components/WelcomeVideo";
 
 
 function App() {
   return (
-    <div className="App">
-      hey
-    </div>
+    <>
+      <WelcomeVideo/>
+    </>
   );
 }
 

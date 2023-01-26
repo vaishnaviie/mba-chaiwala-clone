@@ -13,6 +13,7 @@ import coursesImg from "./assests/image2.png";
 import albumImg from "./assests/mba-cares.gif";
 import baratImg from "./assests/image1.png";
 import chaiwalaImg from "./assests/image3.png";
+import Footer from "./components/Footer";
 
 const yellow="#fff100",pink="#ed1e79",white="#fff",brown="#6d3d0f"
 
@@ -141,7 +142,7 @@ function App() {
       btnBgColor={brown}
       btnColor={yellow}
       />
-
+      <Footer/>
 
     </>
   );

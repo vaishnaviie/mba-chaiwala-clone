@@ -24,6 +24,7 @@ const Section = ({
                 style={{
                    color:headingColor, 
                 }}
+                data-cursorPointer={true}
             >
                 {h3}
             </h3>
@@ -32,6 +33,7 @@ const Section = ({
                 style={{
                     color:textColor, 
                 }}
+                data-cursorPointer={true}
             >
                 {text}
             </p>
@@ -42,14 +44,16 @@ const Section = ({
                 color:btnColor, 
                 backgroundColor:btnBgColor,
              }}
+             data-cursorPointer={true}
             >
                 {btnTxt}
             </button>)}
-                <img src={imgSrc} alt="img" 
+
+            <img src={imgSrc} alt="img" 
                     style={{
                         width:imgSize, 
                     }}
-                />
+                />   
             <div>
 
             </div>

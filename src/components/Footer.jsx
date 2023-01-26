@@ -62,13 +62,25 @@ const Footer = () => {
           <br />
           #connectOnCutting?
         </h1>
-        <aside onMouseLeave={linksBackToNormal}>
-          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(0)}>Home</a>
-          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(1)}>Story</a>
-          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(2)}>Media</a>
-          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(3)}>Franchise</a>
-          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(4)}>Events</a>
-          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(5)}>Chai Wala Cares</a>
+        <aside onMouseLeave={linksBackToNormal} >
+          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(0)}
+          data-cursorPointerMini={true}
+          >Home</a>
+          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(1)}
+          data-cursorPointerMini={true}
+          >Story</a>
+          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(2)}
+          data-cursorPointerMini={true}
+          >Media</a>
+          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(3)}
+          data-cursorPointerMini={true}
+          >Franchise</a>
+          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(4)}
+          data-cursorPointerMini={true}
+          >Events</a>
+          <a href="/" className="footerLinks" onMouseOver={()=>footerLinks(5)}
+          data-cursorPointerMini={true}
+          >Chai Wala Cares</a>
         </aside>
         <div>
           <h5>Email</h5>
